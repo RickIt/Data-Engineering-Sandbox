@@ -1,0 +1,30 @@
+[2022-08-22 20:34:44,550] {{taskinstance.py:655}} INFO - Dependencies all met for <TaskInstance: hello_postgres_postgres_operator.drop_table_if_exists 2022-08-22T20:34:37.941698+00:00 [queued]>
+[2022-08-22 20:34:44,555] {{taskinstance.py:655}} INFO - Dependencies all met for <TaskInstance: hello_postgres_postgres_operator.drop_table_if_exists 2022-08-22T20:34:37.941698+00:00 [queued]>
+[2022-08-22 20:34:44,555] {{taskinstance.py:866}} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-22 20:34:44,556] {{taskinstance.py:867}} INFO - Starting attempt 1 of 1
+[2022-08-22 20:34:44,556] {{taskinstance.py:868}} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-22 20:34:44,563] {{taskinstance.py:887}} INFO - Executing <Task(PostgresOperator): drop_table_if_exists> on 2022-08-22T20:34:37.941698+00:00
+[2022-08-22 20:34:44,565] {{standard_task_runner.py:53}} INFO - Started process 2804 to run task
+[2022-08-22 20:34:45,501] {{logging_mixin.py:112}} INFO - Running %s on host %s <TaskInstance: hello_postgres_postgres_operator.drop_table_if_exists 2022-08-22T20:34:37.941698+00:00 [running]> myairflow
+[2022-08-22 20:34:45,508] {{postgres_operator.py:62}} INFO - Executing: 
+           DROP TABLE IF EXISTS testing_connection;
+          
+[2022-08-22 20:34:45,511] {{logging_mixin.py:112}} INFO - [2022-08-22 20:34:45,511] {{base_hook.py:84}} INFO - Using connection to: id: mypostgres_connection. Host: mypostgres, Port: 5432, Schema: postgres, Login: postgres, Password: None, extra: None
+[2022-08-22 20:34:45,514] {{taskinstance.py:1128}} ERROR - fe_sendauth: no password supplied
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 966, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/usr/local/lib/python3.7/site-packages/airflow/operators/postgres_operator.py", line 65, in execute
+    self.hook.run(self.sql, self.autocommit, parameters=self.parameters)
+  File "/usr/local/lib/python3.7/site-packages/airflow/hooks/dbapi_hook.py", line 162, in run
+    with closing(self.get_conn()) as conn:
+  File "/usr/local/lib/python3.7/site-packages/airflow/hooks/postgres_hook.py", line 93, in get_conn
+    self.conn = psycopg2.connect(**conn_args)
+  File "/usr/local/lib/python3.7/site-packages/psycopg2/__init__.py", line 126, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: fe_sendauth: no password supplied
+
+[2022-08-22 20:34:45,516] {{taskinstance.py:1185}} INFO - Marking task as FAILED.dag_id=hello_postgres_postgres_operator, task_id=drop_table_if_exists, execution_date=20220822T203437, start_date=20220822T203444, end_date=20220822T203445
+[2022-08-22 20:34:54,419] {{logging_mixin.py:112}} INFO - [2022-08-22 20:34:54,419] {{local_task_job.py:103}} INFO - Task exited with return code 1

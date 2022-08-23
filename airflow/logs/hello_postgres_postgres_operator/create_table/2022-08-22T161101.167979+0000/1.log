@@ -1,0 +1,25 @@
+[2022-08-22 16:11:17,396] {{taskinstance.py:655}} INFO - Dependencies all met for <TaskInstance: hello_postgres_postgres_operator.create_table 2022-08-22T16:11:01.167979+00:00 [queued]>
+[2022-08-22 16:11:17,401] {{taskinstance.py:655}} INFO - Dependencies all met for <TaskInstance: hello_postgres_postgres_operator.create_table 2022-08-22T16:11:01.167979+00:00 [queued]>
+[2022-08-22 16:11:17,402] {{taskinstance.py:866}} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-22 16:11:17,402] {{taskinstance.py:867}} INFO - Starting attempt 1 of 1
+[2022-08-22 16:11:17,403] {{taskinstance.py:868}} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-22 16:11:17,409] {{taskinstance.py:887}} INFO - Executing <Task(PostgresOperator): create_table> on 2022-08-22T16:11:01.167979+00:00
+[2022-08-22 16:11:17,412] {{standard_task_runner.py:53}} INFO - Started process 908 to run task
+[2022-08-22 16:11:17,440] {{logging_mixin.py:112}} INFO - Running %s on host %s <TaskInstance: hello_postgres_postgres_operator.create_table 2022-08-22T16:11:01.167979+00:00 [running]> myairflow
+[2022-08-22 16:11:17,447] {{postgres_operator.py:62}} INFO - Executing: 
+           CREATE TABLE testing_connection (
+                dummy_column INTEGER NOT NULL PRIMARY KEY
+            );
+           
+          
+[2022-08-22 16:11:17,451] {{logging_mixin.py:112}} INFO - [2022-08-22 16:11:17,451] {{base_hook.py:84}} INFO - Using connection to: id: mypostgres_connection. Host: mypostgres, Port: 5432, Schema: postgres, Login: postgres, Password: XXXXXXXX, extra: None
+[2022-08-22 16:11:17,456] {{logging_mixin.py:112}} INFO - [2022-08-22 16:11:17,456] {{dbapi_hook.py:174}} INFO - 
+           CREATE TABLE testing_connection (
+                dummy_column INTEGER NOT NULL PRIMARY KEY
+            );
+           
+          
+[2022-08-22 16:11:17,499] {{taskinstance.py:1048}} INFO - Marking task as SUCCESS.dag_id=hello_postgres_postgres_operator, task_id=create_table, execution_date=20220822T161101, start_date=20220822T161117, end_date=20220822T161117
+[2022-08-22 16:11:27,391] {{logging_mixin.py:112}} INFO - [2022-08-22 16:11:27,390] {{local_task_job.py:103}} INFO - Task exited with return code 0

@@ -1,0 +1,14 @@
+[2022-08-22 17:25:02,122] {{taskinstance.py:655}} INFO - Dependencies all met for <TaskInstance: hello_nifi.failure_logging 2022-08-22T17:16:36.949433+00:00 [queued]>
+[2022-08-22 17:25:02,128] {{taskinstance.py:655}} INFO - Dependencies all met for <TaskInstance: hello_nifi.failure_logging 2022-08-22T17:16:36.949433+00:00 [queued]>
+[2022-08-22 17:25:02,128] {{taskinstance.py:866}} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-22 17:25:02,129] {{taskinstance.py:867}} INFO - Starting attempt 1 of 1
+[2022-08-22 17:25:02,129] {{taskinstance.py:868}} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-22 17:25:02,136] {{taskinstance.py:887}} INFO - Executing <Task(PythonOperator): failure_logging> on 2022-08-22T17:16:36.949433+00:00
+[2022-08-22 17:25:02,138] {{standard_task_runner.py:53}} INFO - Started process 2389 to run task
+[2022-08-22 17:25:02,165] {{logging_mixin.py:112}} INFO - Running %s on host %s <TaskInstance: hello_nifi.failure_logging 2022-08-22T17:16:36.949433+00:00 [running]> myairflow
+[2022-08-22 17:25:02,172] {{logging_mixin.py:112}} INFO - something failed... cleaning up.
+[2022-08-22 17:25:02,172] {{python_operator.py:114}} INFO - Done. Returned value was: None
+[2022-08-22 17:25:02,174] {{taskinstance.py:1048}} INFO - Marking task as SUCCESS.dag_id=hello_nifi, task_id=failure_logging, execution_date=20220822T171636, start_date=20220822T172502, end_date=20220822T172502
+[2022-08-22 17:25:12,117] {{logging_mixin.py:112}} INFO - [2022-08-22 17:25:12,117] {{local_task_job.py:103}} INFO - Task exited with return code 0
