@@ -23052,3 +23052,393 @@ File Path                                  PID    Runtime      # DAGs    # Error
 ================================================================================
 [2022-08-24 21:24:23,801] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
 [2022-08-24 21:24:23,802] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:19:23.802216+00:00
+[2022-08-24 21:24:33,811] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:24:33,812] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:19:33.812320+00:00
+[2022-08-24 21:24:43,821] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:24:43,823] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:19:43.823306+00:00
+[2022-08-24 21:24:44,030] {{dag_processing.py:1029}} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/hello_minio.py                              1           0  0.20s           2022-08-24T21:24:44
+/usr/local/airflow/dags/hello_postgres.py                           1           0  0.20s           2022-08-24T21:24:42
+/usr/local/airflow/dags/nifi_operator.py                            1           0  0.10s           2022-08-24T21:24:39
+================================================================================
+[2022-08-24 21:24:53,831] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:24:53,832] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:19:53.832187+00:00
+[2022-08-24 21:25:03,841] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:25:03,842] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:20:03.842889+00:00
+[2022-08-24 21:25:13,851] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:25:13,853] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:20:13.853314+00:00
+[2022-08-24 21:25:14,060] {{dag_processing.py:1029}} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/hello_minio.py                              1           0  0.20s           2022-08-24T21:25:14
+/usr/local/airflow/dags/hello_postgres.py                           1           0  0.10s           2022-08-24T21:25:11
+/usr/local/airflow/dags/nifi_operator.py                            1           0  0.10s           2022-08-24T21:25:09
+================================================================================
+[2022-08-24 21:25:21,860] {{dag_processing.py:908}} INFO - Searching for files in /usr/local/airflow/dags
+[2022-08-24 21:25:21,883] {{dag_processing.py:911}} INFO - There are 3 files in /usr/local/airflow/dags
+[2022-08-24 21:25:23,862] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:25:23,863] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:20:23.863889+00:00
+[2022-08-24 21:25:33,872] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:25:33,874] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:20:33.874097+00:00
+[2022-08-24 21:25:43,883] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:25:43,884] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:20:43.884737+00:00
+[2022-08-24 21:25:44,091] {{dag_processing.py:1029}} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/hello_minio.py                              1           0  0.20s           2022-08-24T21:25:44
+/usr/local/airflow/dags/hello_postgres.py                           1           0  0.10s           2022-08-24T21:25:41
+/usr/local/airflow/dags/nifi_operator.py                            1           0  0.10s           2022-08-24T21:25:39
+================================================================================
+[2022-08-24 21:25:53,894] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:25:53,895] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:20:53.895654+00:00
+[2022-08-24 21:26:03,904] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:26:03,905] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:21:03.905611+00:00
+[2022-08-24 21:26:13,914] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:26:13,915] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:21:13.915741+00:00
+[2022-08-24 21:26:14,122] {{dag_processing.py:1029}} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/hello_minio.py                              1           0  0.20s           2022-08-24T21:26:14
+/usr/local/airflow/dags/hello_postgres.py                           1           0  0.10s           2022-08-24T21:26:12
+/usr/local/airflow/dags/nifi_operator.py                            1           0  0.10s           2022-08-24T21:26:10
+================================================================================
+[2022-08-24 21:26:23,923] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:26:23,924] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:21:23.924954+00:00
+[2022-08-24 21:26:33,934] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:26:33,935] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:21:33.935281+00:00
+[2022-08-24 21:26:43,944] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:26:43,945] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:21:43.945309+00:00
+[2022-08-24 21:26:44,152] {{dag_processing.py:1029}} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/hello_minio.py                              1           0  0.20s           2022-08-24T21:26:44
+/usr/local/airflow/dags/hello_postgres.py                           1           0  0.10s           2022-08-24T21:26:42
+/usr/local/airflow/dags/nifi_operator.py                            1           0  0.10s           2022-08-24T21:26:40
+================================================================================
+[2022-08-24 21:26:53,953] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:26:53,954] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:21:53.954504+00:00
+[2022-08-24 21:27:03,963] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:27:03,965] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:22:03.965202+00:00
+[2022-08-24 21:27:13,972] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:27:13,973] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:22:13.973894+00:00
+[2022-08-24 21:27:14,180] {{dag_processing.py:1029}} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/hello_minio.py                              1           0  0.20s           2022-08-24T21:27:14
+/usr/local/airflow/dags/hello_postgres.py                           1           0  0.10s           2022-08-24T21:27:12
+/usr/local/airflow/dags/nifi_operator.py                            1           0  0.10s           2022-08-24T21:27:10
+================================================================================
+[2022-08-24 21:27:23,982] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:27:23,983] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:22:23.983670+00:00
+[2022-08-24 21:27:33,992] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:27:33,993] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:22:33.993505+00:00
+[2022-08-24 21:27:44,002] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:27:44,003] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:22:44.003814+00:00
+[2022-08-24 21:27:44,212] {{dag_processing.py:1029}} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/hello_minio.py                              1           0  0.20s           2022-08-24T21:27:44
+/usr/local/airflow/dags/hello_postgres.py                           1           0  0.10s           2022-08-24T21:27:42
+/usr/local/airflow/dags/nifi_operator.py                            1           0  0.10s           2022-08-24T21:27:40
+================================================================================
+[2022-08-24 21:27:54,013] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:27:54,014] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:22:54.014361+00:00
+[2022-08-24 21:28:04,023] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:28:04,024] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:23:04.024897+00:00
+[2022-08-24 21:28:14,032] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:28:14,033] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:23:14.033763+00:00
+[2022-08-24 21:28:14,241] {{dag_processing.py:1029}} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/hello_minio.py                              1           0  0.20s           2022-08-24T21:28:14
+/usr/local/airflow/dags/hello_postgres.py                           1           0  0.10s           2022-08-24T21:28:12
+/usr/local/airflow/dags/nifi_operator.py                            1           0  0.10s           2022-08-24T21:28:10
+================================================================================
+[2022-08-24 21:28:24,043] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:28:24,044] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:23:24.044320+00:00
+[2022-08-24 21:28:34,052] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:28:34,053] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:23:34.053619+00:00
+[2022-08-24 21:28:44,062] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:28:44,063] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:23:44.063245+00:00
+[2022-08-24 21:28:44,271] {{dag_processing.py:1029}} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/hello_minio.py                              1           0  0.20s           2022-08-24T21:28:44
+/usr/local/airflow/dags/hello_postgres.py                           1           0  0.10s           2022-08-24T21:28:42
+/usr/local/airflow/dags/nifi_operator.py                            1           0  0.10s           2022-08-24T21:28:40
+================================================================================
+[2022-08-24 21:28:54,071] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:28:54,073] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:23:54.073362+00:00
+[2022-08-24 21:29:04,081] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:29:04,084] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:24:04.084101+00:00
+[2022-08-24 21:29:14,092] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:29:14,093] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:24:14.093699+00:00
+[2022-08-24 21:29:14,300] {{dag_processing.py:1029}} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/hello_minio.py                              1           0  0.20s           2022-08-24T21:29:14
+/usr/local/airflow/dags/hello_postgres.py                           1           0  0.10s           2022-08-24T21:29:12
+/usr/local/airflow/dags/nifi_operator.py                            1           0  0.10s           2022-08-24T21:29:10
+================================================================================
+[2022-08-24 21:29:24,103] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:29:24,104] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:24:24.104578+00:00
+[2022-08-24 21:29:34,113] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:29:34,114] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:24:34.114623+00:00
+[2022-08-24 21:29:44,122] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:29:44,123] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:24:44.123272+00:00
+[2022-08-24 21:29:44,330] {{dag_processing.py:1029}} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/hello_minio.py                              1           0  0.20s           2022-08-24T21:29:44
+/usr/local/airflow/dags/hello_postgres.py                           1           0  0.10s           2022-08-24T21:29:42
+/usr/local/airflow/dags/nifi_operator.py                            1           0  0.10s           2022-08-24T21:29:40
+================================================================================
+[2022-08-24 21:29:54,131] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:29:54,132] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:24:54.132833+00:00
+[2022-08-24 21:30:04,140] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:30:04,142] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:25:04.142097+00:00
+[2022-08-24 21:30:14,151] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:30:14,152] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:25:14.152737+00:00
+[2022-08-24 21:30:14,359] {{dag_processing.py:1029}} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/hello_minio.py                              1           0  0.20s           2022-08-24T21:30:14
+/usr/local/airflow/dags/hello_postgres.py                           1           0  0.10s           2022-08-24T21:30:12
+/usr/local/airflow/dags/nifi_operator.py                            1           0  0.10s           2022-08-24T21:30:10
+================================================================================
+[2022-08-24 21:30:22,158] {{dag_processing.py:908}} INFO - Searching for files in /usr/local/airflow/dags
+[2022-08-24 21:30:22,185] {{dag_processing.py:911}} INFO - There are 3 files in /usr/local/airflow/dags
+[2022-08-24 21:30:24,161] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:30:24,162] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:25:24.162599+00:00
+[2022-08-24 21:30:34,171] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:30:34,173] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:25:34.173388+00:00
+[2022-08-24 21:30:44,180] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:30:44,182] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:25:44.181971+00:00
+[2022-08-24 21:30:44,388] {{dag_processing.py:1029}} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/hello_minio.py                              1           0  0.20s           2022-08-24T21:30:44
+/usr/local/airflow/dags/hello_postgres.py                           1           0  0.10s           2022-08-24T21:30:42
+/usr/local/airflow/dags/nifi_operator.py                            1           0  0.10s           2022-08-24T21:30:40
+================================================================================
+[2022-08-24 21:30:54,190] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:30:54,192] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:25:54.192021+00:00
+[2022-08-24 21:31:04,200] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:31:04,202] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:26:04.202009+00:00
+[2022-08-24 21:31:14,209] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:31:14,211] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:26:14.211204+00:00
+[2022-08-24 21:31:14,417] {{dag_processing.py:1029}} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/hello_minio.py                              1           0  0.20s           2022-08-24T21:31:14
+/usr/local/airflow/dags/hello_postgres.py                           1           0  0.10s           2022-08-24T21:31:12
+/usr/local/airflow/dags/nifi_operator.py                            1           0  0.10s           2022-08-24T21:31:10
+================================================================================
+[2022-08-24 21:31:24,219] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:31:24,220] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:26:24.220643+00:00
+[2022-08-24 21:31:34,230] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:31:34,231] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:26:34.231540+00:00
+[2022-08-24 21:31:44,239] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:31:44,241] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:26:44.241404+00:00
+[2022-08-24 21:31:44,449] {{dag_processing.py:1029}} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/hello_minio.py                              1           0  0.20s           2022-08-24T21:31:44
+/usr/local/airflow/dags/hello_postgres.py                           1           0  0.20s           2022-08-24T21:31:42
+/usr/local/airflow/dags/nifi_operator.py                            1           0  0.10s           2022-08-24T21:31:40
+================================================================================
+[2022-08-24 21:31:54,249] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:31:54,250] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:26:54.250847+00:00
+[2022-08-24 21:32:04,259] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:32:04,261] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:27:04.261278+00:00
+[2022-08-24 21:32:14,269] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:32:14,270] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:27:14.270715+00:00
+[2022-08-24 21:32:14,478] {{dag_processing.py:1029}} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/hello_minio.py                              1           0  0.20s           2022-08-24T21:32:14
+/usr/local/airflow/dags/hello_postgres.py                           1           0  0.10s           2022-08-24T21:32:12
+/usr/local/airflow/dags/nifi_operator.py                            1           0  0.10s           2022-08-24T21:32:10
+================================================================================
+[2022-08-24 21:32:24,279] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:32:24,280] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:27:24.280591+00:00
+[2022-08-24 21:32:34,289] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:32:34,291] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:27:34.291137+00:00
+[2022-08-24 21:32:44,300] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:32:44,301] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:27:44.301714+00:00
+[2022-08-24 21:32:44,509] {{dag_processing.py:1029}} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/hello_minio.py                              1           0  0.20s           2022-08-24T21:32:44
+/usr/local/airflow/dags/hello_postgres.py                           1           0  0.10s           2022-08-24T21:32:42
+/usr/local/airflow/dags/nifi_operator.py                            1           0  0.10s           2022-08-24T21:32:40
+================================================================================
+[2022-08-24 21:32:54,310] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:32:54,311] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:27:54.311319+00:00
+[2022-08-24 21:33:04,320] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:33:04,321] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:28:04.321754+00:00
+[2022-08-24 21:33:14,330] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:33:14,331] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:28:14.331917+00:00
+[2022-08-24 21:33:14,540] {{dag_processing.py:1029}} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/hello_minio.py                              1           0  0.20s           2022-08-24T21:33:14
+/usr/local/airflow/dags/hello_postgres.py                           1           0  0.10s           2022-08-24T21:33:12
+/usr/local/airflow/dags/nifi_operator.py                            1           0  0.10s           2022-08-24T21:33:10
+================================================================================
+[2022-08-24 21:33:24,338] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:33:24,340] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:28:24.340196+00:00
+[2022-08-24 21:33:34,349] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:33:34,351] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:28:34.351074+00:00
+[2022-08-24 21:33:44,359] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:33:44,360] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:28:44.360851+00:00
+[2022-08-24 21:33:44,567] {{dag_processing.py:1029}} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/hello_minio.py                              1           0  0.20s           2022-08-24T21:33:44
+/usr/local/airflow/dags/hello_postgres.py                           1           0  0.10s           2022-08-24T21:33:42
+/usr/local/airflow/dags/nifi_operator.py                            1           0  0.20s           2022-08-24T21:33:40
+================================================================================
+[2022-08-24 21:33:54,370] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:33:54,371] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:28:54.371492+00:00
+[2022-08-24 21:34:04,379] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:34:04,380] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:29:04.380793+00:00
+[2022-08-24 21:34:14,390] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:34:14,391] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:29:14.391357+00:00
+[2022-08-24 21:34:14,598] {{dag_processing.py:1029}} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/hello_minio.py                              1           0  0.20s           2022-08-24T21:34:14
+/usr/local/airflow/dags/hello_postgres.py                           1           0  0.10s           2022-08-24T21:34:12
+/usr/local/airflow/dags/nifi_operator.py                            1           0  0.10s           2022-08-24T21:34:10
+================================================================================
+[2022-08-24 21:34:24,399] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:34:24,401] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:29:24.401122+00:00
+[2022-08-24 21:34:34,409] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:34:34,410] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:29:34.410688+00:00
+[2022-08-24 21:34:44,418] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:34:44,420] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:29:44.420260+00:00
+[2022-08-24 21:34:44,627] {{dag_processing.py:1029}} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/hello_minio.py                              1           0  0.20s           2022-08-24T21:34:44
+/usr/local/airflow/dags/hello_postgres.py                           1           0  0.10s           2022-08-24T21:34:42
+/usr/local/airflow/dags/nifi_operator.py                            1           0  0.10s           2022-08-24T21:34:40
+================================================================================
+[2022-08-24 21:34:54,428] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:34:54,429] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:29:54.429715+00:00
+[2022-08-24 21:35:04,438] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:35:04,439] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:30:04.439923+00:00
+[2022-08-24 21:35:14,448] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:35:14,449] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:30:14.449451+00:00
+[2022-08-24 21:35:14,656] {{dag_processing.py:1029}} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/hello_minio.py                              1           0  0.20s           2022-08-24T21:35:14
+/usr/local/airflow/dags/hello_postgres.py                           1           0  0.10s           2022-08-24T21:35:12
+/usr/local/airflow/dags/nifi_operator.py                            1           0  0.10s           2022-08-24T21:35:10
+================================================================================
+[2022-08-24 21:35:22,456] {{dag_processing.py:908}} INFO - Searching for files in /usr/local/airflow/dags
+[2022-08-24 21:35:22,477] {{dag_processing.py:911}} INFO - There are 3 files in /usr/local/airflow/dags
+[2022-08-24 21:35:24,458] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:35:24,459] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:30:24.459695+00:00
+[2022-08-24 21:35:34,468] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:35:34,469] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:30:34.469427+00:00
+[2022-08-24 21:35:44,478] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:35:44,479] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:30:44.479868+00:00
+[2022-08-24 21:35:44,686] {{dag_processing.py:1029}} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/hello_minio.py                              1           0  0.20s           2022-08-24T21:35:44
+/usr/local/airflow/dags/hello_postgres.py                           1           0  0.10s           2022-08-24T21:35:42
+/usr/local/airflow/dags/nifi_operator.py                            1           0  0.10s           2022-08-24T21:35:40
+================================================================================
+[2022-08-24 21:35:54,487] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:35:54,488] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:30:54.488380+00:00
+[2022-08-24 21:36:04,496] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:36:04,497] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:31:04.497820+00:00
+[2022-08-24 21:36:14,506] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:36:14,507] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:31:14.507662+00:00
+[2022-08-24 21:36:14,714] {{dag_processing.py:1029}} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/hello_minio.py                              1           0  0.20s           2022-08-24T21:36:14
+/usr/local/airflow/dags/hello_postgres.py                           1           0  0.10s           2022-08-24T21:36:12
+/usr/local/airflow/dags/nifi_operator.py                            1           0  0.10s           2022-08-24T21:36:10
+================================================================================
+[2022-08-24 21:36:24,516] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-08-24 21:36:24,517] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-08-24 21:31:24.517534+00:00
