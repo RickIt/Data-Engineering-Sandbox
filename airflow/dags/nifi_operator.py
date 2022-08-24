@@ -17,7 +17,9 @@ def get_nifi_processor():
 
     # Replace with your own ID!
 #    processor_id = '1462a26f-0000-0000-0000-35550911fe94'
-    processor_id = 'c5d91e33-0182-1000-ffff-ffffde85851b'
+#    processor_id = 'c5d91e33-0182-1000-ffff-ffffde85851b'
+    processor_id = 'd195834a-0182-1000-0000-0000141b903d'
+
   
     # you could pass a bearer auth-token via the header!
     header =  {'Content-Type':'application/json'} 
