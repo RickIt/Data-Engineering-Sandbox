@@ -1,5 +1,6 @@
 # Data-Engineering-Sandbox
  Repositorio criado a partir do artigo "How to build a data lake from scratch".
+ Autor original Victor Seifert.
  
  Acessível no endereço: https://towardsdatascience.com/how-to-build-a-data-lake-from-scratch-part-1-the-setup-34ea1665a06e.
  
