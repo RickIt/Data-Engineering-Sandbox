@@ -14,7 +14,7 @@ default_args = {
 }
 
 with DAG(
-    dag_id='minha_primeira_dag_v4',
+    dag_id='minha_primeira_dag_v5',
     default_args=default_args,
     description='Esta é minha primeira dag',
     start_date=datetime(2022, 9, 7),
@@ -36,7 +36,13 @@ with DAG(
                         e ao mesmo tempo que a task2"""
     )
 
+    #primeiro método
     #task1.set_downstream(task2)
     #task1.set_downstream(task3)
+ 
+    #segundo método
     task1 >> task2
     task1 >> task3
+
+    #terceito método
+    task1 >> [task2, task3]
